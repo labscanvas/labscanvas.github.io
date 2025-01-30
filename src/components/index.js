@@ -1,4 +1,5 @@
 import Banner from "./Banner";
 import Navbar from "./NavBar";
+import About from "./About";
  
-export {Banner, Navbar}
+export {Banner, Navbar, About}
