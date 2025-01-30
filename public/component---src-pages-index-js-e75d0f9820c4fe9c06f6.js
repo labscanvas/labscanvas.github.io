@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcanvaslabs=self.webpackChunkcanvaslabs||[]).push([[678],{6558:function(e,a,n){n.r(a),n.d(a,{Head:function(){return l}});var t=n(7294);a.default=()=>t.createElement("div",null,"Initial Push");const l=()=>t.createElement("title",null,"Home Page")}}]);
+//# sourceMappingURL=component---src-pages-index-js-e75d0f9820c4fe9c06f6.js.map
