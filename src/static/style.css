@@ -220,3 +220,97 @@ ABOUT SECTION
 .social-links a:hover {
     color: #2980b9;
 }
+
+/**
+PROJECT SECTION
+**/
+ 
+.projects {
+    background-color: #f4f4f4;
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+ 
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 6rem;
+    max-width: 1200px;  
+    width: 100%;
+    justify-items: center;  
+}
+ 
+.bg-black {
+    color: black;
+}
+ 
+.project-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 350px;  
+    text-align: left;  
+}
+ 
+.project-card:hover {
+    transform: translateY(-10px);  
+}
+ 
+.project-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+ 
+.project-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+ 
+.technologies {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+ 
+.project-links .btn {
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+ 
+.demo-btn {
+    background-color: #3498db;  
+}
+ 
+.github-btn {
+    background-color: #2ecc71;  
+}
+ 
+.project-links .btn:hover {
+    background-color: #2980b9;  
+}
+ 
+.project-links .github-btn:hover {
+    background-color: #27ae60;  
+}
