@@ -1,10 +1,13 @@
 import * as React from "react"
-import { Banner } from "../components"
+import "../static/style.css"
+import { Banner, About, Project } from "../components"
 
 const IndexPage = () => {
   return (
     <main>
       <Banner/>
+      <About/>
+      <Project/>
     </main>
   )
 }
