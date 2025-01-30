@@ -1,0 +1,66 @@
+
+
+ 
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+ 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+ 
+body {
+    background-color: #171810;
+    color: #fff;
+}
+ 
+.title {
+    color: #03fa6e;
+}
+ 
+.banner, .about, .projects {
+    width: 100vw;
+    height: 100vh;
+}
+ 
+/**
+NAV CSS
+**/
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+ 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+ 
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+ 
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+ 
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+ 
+.nav-link:hover {
+    color: #f39c12;  
+}
+ 
+ 
