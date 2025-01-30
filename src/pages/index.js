@@ -1,10 +1,11 @@
 import * as React from "react"
+import { Banner } from "../components"
 
 const IndexPage = () => {
   return (
-    <div>
-      Initial Push
-    </div>
+    <main>
+      <Banner/>
+    </main>
   )
 }
 
